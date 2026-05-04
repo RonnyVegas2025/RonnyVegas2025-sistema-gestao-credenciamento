@@ -1,10 +1,18 @@
+import type { Metadata } from "next";
+import "./globals.css";
+
+export const metadata: Metadata = {
+  title: "Sistema de Credenciamento",
+  description: "Projeto Next.js com TypeScript e Tailwind CSS"
+};
+
 export default function RootLayout({
-  children,
-}: {
+  children
+}: Readonly<{
   children: React.ReactNode;
-}) {
+}>) {
   return (
-    <html lang="pt-br">
+    <html lang="pt-BR">
       <body>{children}</body>
     </html>
   );
