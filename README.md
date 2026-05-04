@@ -1,0 +1,1 @@
+# RonnyVegas2025-sistema-gestao-credenciamento
