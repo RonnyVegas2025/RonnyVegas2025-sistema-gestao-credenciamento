@@ -1,12 +1,35 @@
 export default function Home() {
   return (
-    <main className="flex min-h-screen items-center justify-center p-8">
-      <div className="max-w-xl rounded-xl border border-gray-200 bg-white p-8 shadow-sm">
-        <h1 className="text-2xl font-semibold">Next.js + TypeScript + Tailwind</h1>
-        <p className="mt-3 text-gray-600">
-          Projeto criado com App Router e pronto para desenvolvimento.
-        </p>
+    <div className="p-8">
+      <h1 className="text-2xl font-bold mb-4">
+        Sistema de Gestão de Credenciamento
+      </h1>
+
+      <p className="mb-6">
+        Plataforma de acompanhamento comercial Vegas 🚀
+      </p>
+
+      <div className="grid grid-cols-2 gap-4">
+        <div className="bg-white p-4 rounded shadow">
+          <h2 className="font-semibold">Credenciamentos</h2>
+          <p>120 no mês</p>
+        </div>
+
+        <div className="bg-white p-4 rounded shadow">
+          <h2 className="font-semibold">Comissões</h2>
+          <p>R$ 35.000</p>
+        </div>
+
+        <div className="bg-white p-4 rounded shadow">
+          <h2 className="font-semibold">Empresas</h2>
+          <p>18 ativas</p>
+        </div>
+
+        <div className="bg-white p-4 rounded shadow">
+          <h2 className="font-semibold">Ativação</h2>
+          <p>72%</p>
+        </div>
       </div>
-    </main>
+    </div>
   );
 }
